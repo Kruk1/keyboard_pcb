@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NHD-0208BZ-FL-YBW"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-24-10:47:16)
+    (mountForm default
+        (footprintRef "NHD0208BZFLYBW")
+        (spec "System")
+    )
+)

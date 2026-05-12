@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NHD_0208BZ_FL_YBW'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Newhaven Display", "NHD-0208BZ-FL-YBW" (!) = "", "NHD0208BZFLYBW", "Other", "763-0208BZ-FL-YBW", "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/NHD-0208BZ-FL-YBW?qs=3vk7fz9CmNzi22V9hm7pfQ%3D%3D", "LCD Character Display Modules & Accessories STN- Y/G Transfl 58.0 x 32.0", "https://www.newhavendisplay.com/specs/NHD-0208BZ-FL-YBW.pdf", "13.5 mm"
+END_PART
+
+END.
