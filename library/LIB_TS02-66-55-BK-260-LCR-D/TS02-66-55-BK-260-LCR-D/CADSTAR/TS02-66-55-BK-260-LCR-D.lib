@@ -1,0 +1,16 @@
+.TS02-66-55-BK-260-LCR-D :1 ;TS02-66-55-BK-260-LCR-D - 6 x 6 mm, 5.5 mm Actuator Height Off PCB, 260 gf, Black, Long Crimped, Through Hole, SPST, Tactile Switch
+TS0266100BK100LCRD
+*STM S
+*NGS
+*PLB 1="NO_1" 2="NO_2" 3="COM_1" 4="COM_2"
+*MXP 4
+*DFN TS02-66-55-BK-260-LCR-D
+~!Mouser Part Number (179-TS026655BK260LCR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-55-BK-260-LCR-D?qs=A6eO%252BMLsxmT6x4NEvNu8bQ%3D%3D)
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (TS02-66-55-BK-260-LCR-D)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/TS02-66-55-BK-260-LCR-D.pdf)
+~!Height (10.2mm)
+~!3D_Model (TS02-66-55-BK-260-LCR-D)
+TS02-66-55-BK-260-LCR-D
+1.1!U 2.1!U 3.1!U 4.1!U 

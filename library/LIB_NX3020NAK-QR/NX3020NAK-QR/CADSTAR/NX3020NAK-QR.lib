@@ -1,0 +1,16 @@
+.NX3020NAK-QR :1 ;30 V, N-channel Trench MOSFET
+SOT95P230X110-3N
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN NX3020NAK-QR
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (NX3020NAK-QR)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/NX3020NAK.pdf)
+~!Height (1.1mm)
+~!3D_Model (NX3020NAK-QR)
+NX3020NAK-QR
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_20545900"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-05-15-02:57:55)
+    (utime 2025-05-15-02:57:55)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "NX3020NAK-QR")
+)
+
+
+(pinAssign "ECS_20545900"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-05-15-02:57:55)
+    (utime 2025-05-15-02:57:55)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_20545900")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "NX3020NAK-QR")
+)
+
+
+(part "NX3020NAK-QR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-05-15-02:57:55)
+    (utime 2025-05-15-02:57:55)
+    (packageRef "NX3020NAK-QR")
+    (pinAssignRef "ECS_20545900")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "30 V, N-channel Trench MOSFET")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "NX3020NAK-QR")
+    (property "Datasheet_Link" "https://assets.nexperia.com/documents/data-sheet/NX3020NAK.pdf")
+    (property "compAreaTopHeight" 1.1)
+)
+
+

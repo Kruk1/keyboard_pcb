@@ -1,0 +1,168 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TS02-66-55-BK-260-LCR-D"
+   (description "TS02-66-55-BK-260-LCR-D - 6 x 6 mm, 5.5 mm Actuator Height Off PCB, 260 gf, Black, Long Crimped, Through Hole, SPST, Tactile Switch")
+   (family "ANA")
+   (package "TS0266100BK100LCRD")
+   (attribute "Datasheet Link" "https://www.sameskydevices.com/product/resource/TS02-66-55-BK-260-LCR-D.pdf")
+   (attribute "Geometry.Height" "10.2mm")
+   (attribute "Mouser Part Number" "179-TS026655BK260LCR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-55-BK-260-LCR-D?qs=A6eO%252BMLsxmT6x4NEvNu8bQ%3D%3D")
+   (attribute "Manufacturer_Name" "Same Sky")
+   (attribute "Manufacturer_Part_Number" "TS02-66-55-BK-260-LCR-D")
+   (gate
+    (symbol "TS02-66-55-BK-260-LCR-D")
+    (pin "COM_1" 3 PS)
+    (pin "COM_2" 4 PS)
+    (pin "NO_1" 1 PS)
+    (pin "NO_2" 2 PS)
+   )
+  )
+  (symbol "TS02-66-55-BK-260-LCR-D"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 240 -100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (circle (pt 400 -100) (pt 360 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 -200) (pt 100 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 -100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -100) (pt 500 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 -200) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 240 -90) (pt 330 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 -200) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TS0266100BK100LCRD"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.25 0.75)
+      (pt 6.25 0.75)
+      (pt 6.25 -5.25)
+      (pt 0.25 -5.25)
+      (pt 0.25 0.75))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 1.75)
+      (pt 8.25 1.75)
+      (pt 8.25 -6.25)
+      (pt -1.75 -6.25)
+      (pt -1.75 1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.25 0)
+      (arc (pt -1.250 0.000) (pt -1.250 -0.050) (pt -1.150 0.050) (start 180.0) (sweep -180.0))
+      (pt -1.15 0)
+      (arc (pt -1.150 0.000) (pt -1.250 -0.050) (pt -1.150 0.050) (start 180.0) (sweep .0))
+      (pt -1.25 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.25 0.75)
+      (pt 5.65 0.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6.25 -1.05)
+      (pt 6.25 -3.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 5.65 -5.25)
+      (pt 0.85 -5.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.25 -1.05)
+      (pt 0.25 -3.45))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 6.500 0.000) (padstack 0))
+   (leg 3 (pt 0.000 -4.500) (padstack 0))
+   (leg 4 (pt 6.500 -4.500) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (model "TS02-66-55-BK-260-LCR-D.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

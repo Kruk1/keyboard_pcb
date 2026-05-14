@@ -1,0 +1,9 @@
+Manufacturer=CREE LED
+PartNumber=C5SMF-RJE-CT0W0BB2
+PartCategory=LED
+PackageCategory=Other
+PinCount=2
+Version=1.4
+Released=2021-06-09 05:47:53
+Downloaded=2026-05-12 17:59:15
+3D=Y

@@ -9,7 +9,498 @@
 		(rev "0.1v")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:Conn_01x10_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10_Pin"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x10_Pin_1_1"
+				(rectangle
+					(start 0.8636 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy 0.8636 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 0.8636 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 10.16 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -24,7 +515,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(effects
 					(font
@@ -50,7 +541,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,7 +568,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -166,8 +657,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -368,7 +881,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -645,6 +1158,42 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -769,155 +1318,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -1952,6 +2352,217 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Logic_LevelTranslator:SN74LV1T34DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SN74LV1T34DBV"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 16.51 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
+				(at -10.16 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single buffer level shift"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LV1T34DBV_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LV1T34DBV_1_1"
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 1.016 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4767,131 +5378,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3VA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -5245,8 +5731,8 @@
 		)
 	)
 	(rectangle
-		(start 295.91 187.96)
-		(end 393.7 251.46)
+		(start 290.83 185.42)
+		(end 400.05 251.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -5393,7 +5879,7 @@
 	)
 	(text "Volume encoder\n"
 		(exclude_from_sim no)
-		(at 375.158 246.888 0)
+		(at 381.508 244.348 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5436,7 +5922,7 @@
 		(uuid "0734140b-71ac-48e0-b13a-5dabee9d254c")
 	)
 	(junction
-		(at 316.23 215.9)
+		(at 322.58 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "073f500f-4e6c-4dcd-9825-02420da99ead")
@@ -5454,7 +5940,7 @@
 		(uuid "0d2fa696-d57b-42ca-a63a-fcabcab8b48c")
 	)
 	(junction
-		(at 349.25 220.98)
+		(at 355.6 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d9d8a1e-1bff-43cf-9466-e05aff228cee")
@@ -5464,6 +5950,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f8c5391-b0bc-4fe8-a1bb-665447b2d1be")
+	)
+	(junction
+		(at 236.22 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "135f1196-77b5-4c39-8708-68162d26603e")
 	)
 	(junction
 		(at 73.66 255.27)
@@ -5484,12 +5976,6 @@
 		(uuid "19c2a2c2-f5eb-4fd7-9228-c8b11206af82")
 	)
 	(junction
-		(at 104.14 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f03aec4-fe07-4bbe-a592-c397eb535504")
-	)
-	(junction
 		(at 93.98 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5502,22 +5988,40 @@
 		(uuid "26dce443-3b56-435a-94f3-a28751ceb365")
 	)
 	(junction
+		(at 259.08 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "296ec9f6-23ca-48ee-bdf3-b49889a54aec")
+	)
+	(junction
 		(at 102.87 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3554985f-876c-4a08-974f-985d7c82f6b7")
 	)
 	(junction
-		(at 85.09 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e05a0ef-8e47-4b05-aa55-4f83ecfcb6bc")
-	)
-	(junction
 		(at 55.88 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f49908a-1b6f-4dfc-9303-7bdb5f93c3b0")
+	)
+	(junction
+		(at 236.22 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f5ca661-7e5a-4009-8b3c-6b0883703ebb")
+	)
+	(junction
+		(at 243.84 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4000a011-c6f3-40f6-a10e-7be774adf614")
+	)
+	(junction
+		(at 259.08 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4319ca49-a8f7-4dd6-8999-4f377479c4c2")
 	)
 	(junction
 		(at 312.42 105.41)
@@ -5544,7 +6048,7 @@
 		(uuid "5a0cec65-af62-4e65-a99f-8f760dd9fc02")
 	)
 	(junction
-		(at 316.23 227.33)
+		(at 322.58 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d8fe00a-9d6c-4e11-a46d-ad216fa4da8a")
@@ -5556,10 +6060,16 @@
 		(uuid "6235202d-e335-42a0-9b0b-60bfe77ec489")
 	)
 	(junction
-		(at 236.22 175.26)
+		(at 266.7 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c0385ee-4fb4-4724-b4a0-0f457e662412")
+		(uuid "63b65cc1-7333-47dd-8f87-be6be3de6f43")
+	)
+	(junction
+		(at 115.57 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cf85426-6eff-4b26-ab65-97c8b2749fdc")
 	)
 	(junction
 		(at 339.09 148.59)
@@ -5592,10 +6102,10 @@
 		(uuid "7ad3699f-61b5-401b-93bc-3d39da6d672d")
 	)
 	(junction
-		(at 236.22 167.64)
+		(at 266.7 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81217009-8794-4113-87d4-1fcff18be74a")
+		(uuid "7ee591aa-02c7-40fd-b530-c0167de2030b")
 	)
 	(junction
 		(at 91.44 81.28)
@@ -5604,16 +6114,22 @@
 		(uuid "81917ffc-fa60-4a24-98a7-b1a6b2a9b466")
 	)
 	(junction
+		(at 243.84 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83ccbec4-0c89-48dc-93bc-b8f7ace02af5")
+	)
+	(junction
+		(at 73.66 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "883bed41-3c32-4895-a6c1-2013782eb72f")
+	)
+	(junction
 		(at 334.01 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dc6d109-d7d6-4998-98f6-46cc937aebc9")
-	)
-	(junction
-		(at 133.35 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f636ec3-76bd-4b7e-8f41-998bfcff7267")
 	)
 	(junction
 		(at 166.37 228.6)
@@ -5628,16 +6144,16 @@
 		(uuid "9802f9c6-f802-46a2-918a-94ccf2119f45")
 	)
 	(junction
-		(at 266.7 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b7018f5-5de2-4fb0-8eba-4365c1c325cd")
-	)
-	(junction
 		(at 334.01 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b9a4113-351f-41b1-9cde-c897d1bf15b6")
+	)
+	(junction
+		(at 40.64 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1387cba-fe2d-4caf-b761-431f9b5318d7")
 	)
 	(junction
 		(at 251.46 175.26)
@@ -5658,6 +6174,12 @@
 		(uuid "a53a5efc-65d9-411c-a4f3-2964ed403c88")
 	)
 	(junction
+		(at 114.3 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8949af3-9990-470e-be84-b5bf52bf9f3c")
+	)
+	(junction
 		(at 172.72 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5676,12 +6198,6 @@
 		(uuid "afe8cca9-aceb-4f1e-a703-db7c0e0c733b")
 	)
 	(junction
-		(at 114.3 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2f2d2ad-eaf9-4479-82fa-ba194b739730")
-	)
-	(junction
 		(at 204.47 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5694,28 +6210,22 @@
 		(uuid "c82f067b-0300-4511-8344-5a2478940414")
 	)
 	(junction
-		(at 243.84 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8497b85-c976-4efa-a66e-de350a8a6c7f")
-	)
-	(junction
 		(at 360.68 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c975ee87-c863-4023-9b81-1131df96aaf5")
 	)
 	(junction
-		(at 349.25 215.9)
+		(at 40.64 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf260bd-b489-4421-8785-5776eca77f7a")
+	)
+	(junction
+		(at 355.6 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce95a526-3f4d-46b9-af94-e19943106d93")
-	)
-	(junction
-		(at 259.08 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfe94582-03f4-41d9-982b-0554800735bd")
 	)
 	(junction
 		(at 215.9 78.74)
@@ -5736,22 +6246,10 @@
 		(uuid "d4482518-08f6-4594-9ced-a95c96e16c52")
 	)
 	(junction
-		(at 73.66 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d73e7f1b-5c93-4aef-986d-0c4f7465af75")
-	)
-	(junction
 		(at 114.3 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8845ece-f504-4687-8e78-c2708cc7dada")
-	)
-	(junction
-		(at 259.08 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9b2a296-8f97-4439-97a9-c6337091261d")
 	)
 	(junction
 		(at 62.23 80.01)
@@ -5764,24 +6262,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e255391e-9334-41a8-a507-dc4a440f17bb")
-	)
-	(junction
-		(at 266.7 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e569c04d-5c80-459b-aa69-67a707ee9803")
-	)
-	(junction
-		(at 243.84 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea501b4a-f0bc-4e49-8da0-4dba6f78c208")
-	)
-	(junction
-		(at 115.57 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eceb3f7e-0dff-4a99-b3b4-76f4cd8a832f")
 	)
 	(junction
 		(at 87.63 210.82)
@@ -5814,6 +6294,18 @@
 		(uuid "f785ef0b-2a48-4525-8f97-dd6f1b862f80")
 	)
 	(junction
+		(at 85.09 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8ccd449-db9b-4410-bc91-8912cd9283ee")
+	)
+	(junction
+		(at 104.14 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa995eb3-5e23-4e09-817e-27c9477a0bb6")
+	)
+	(junction
 		(at 360.68 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5824,16 +6316,104 @@
 		(uuid "01bf2d55-d958-4edd-8440-05ad8d8162b7")
 	)
 	(no_connect
+		(at 76.2 101.6)
+		(uuid "05cc1838-e0ba-41fc-9ab5-c79e57853144")
+	)
+	(no_connect
+		(at 76.2 127)
+		(uuid "1356f3e7-3c89-41bc-b54d-bdff419c158f")
+	)
+	(no_connect
+		(at 38.1 154.94)
+		(uuid "1b710fb5-e10c-43c1-8c62-8048cdd2e5a1")
+	)
+	(no_connect
+		(at 111.76 129.54)
+		(uuid "33955af1-0f2e-4a2c-9140-2a49e0e6346d")
+	)
+	(no_connect
+		(at 111.76 96.52)
+		(uuid "44b74931-d0ff-4fc8-98dc-59e8d953e4e2")
+	)
+	(no_connect
+		(at 76.2 134.62)
+		(uuid "4c11632b-586e-4c1e-a56d-2e8681be5485")
+	)
+	(no_connect
+		(at 76.2 121.92)
+		(uuid "4d438896-3edd-48c0-b8af-4df1c07f7d43")
+	)
+	(no_connect
+		(at 76.2 109.22)
+		(uuid "5b2a18c8-0da7-418c-9e1c-1795d63ea67a")
+	)
+	(no_connect
+		(at 69.85 241.3)
+		(uuid "5c5f8ae1-a0eb-4929-bb8a-d1536a7703c7")
+	)
+	(no_connect
+		(at 38.1 170.18)
+		(uuid "649388b7-bc83-4e7c-86e6-d522ebeae774")
+	)
+	(no_connect
+		(at 69.85 238.76)
+		(uuid "6ea4e91c-6055-4d55-b4cf-e1ab9d909fe4")
+	)
+	(no_connect
+		(at 76.2 104.14)
+		(uuid "85481363-e321-45a7-9bec-5585d0f433b2")
+	)
+	(no_connect
+		(at 111.76 93.98)
+		(uuid "912495ce-0a01-4b94-96fd-ede91ce6e629")
+	)
+	(no_connect
+		(at 76.2 119.38)
+		(uuid "967350fb-2215-41d1-93b5-faa9ec99bc96")
+	)
+	(no_connect
+		(at 76.2 157.48)
+		(uuid "a0641050-91bb-4bff-b228-34a4dbf2eb3d")
+	)
+	(no_connect
 		(at 176.53 146.05)
 		(uuid "a356b96c-a4d2-49c9-b647-a1c2347d28ae")
+	)
+	(no_connect
+		(at 38.1 172.72)
+		(uuid "b1acfe45-90f0-4873-9866-65c8b39047d3")
 	)
 	(no_connect
 		(at 176.53 153.67)
 		(uuid "baf0c452-d39f-4f58-80fa-0f82433caa0e")
 	)
 	(no_connect
+		(at 111.76 99.06)
+		(uuid "c7a7e54d-3443-4d0c-985c-20561ae66c0e")
+	)
+	(no_connect
 		(at 176.53 148.59)
 		(uuid "ced1a74d-3368-4ea8-8464-55150da9675d")
+	)
+	(no_connect
+		(at 76.2 124.46)
+		(uuid "dc63a90a-83e6-4e3b-ba98-f1f66b1fdb1f")
+	)
+	(no_connect
+		(at 76.2 111.76)
+		(uuid "dcac8e76-44e0-4135-b4a0-ba9acf529b44")
+	)
+	(no_connect
+		(at 76.2 114.3)
+		(uuid "ebdb08f8-d2fc-4332-bad2-9d94e50daa7a")
+	)
+	(no_connect
+		(at 111.76 101.6)
+		(uuid "f1a3c835-4025-4d26-9ddf-7418a6920cf8")
+	)
+	(no_connect
+		(at 111.76 91.44)
+		(uuid "ff9e9948-ab04-4044-b369-c728f876d406")
 	)
 	(wire
 		(pts
@@ -5877,6 +6457,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 236.22) (xy 313.69 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066194e5-ab58-4a94-b711-7f7a18e2843e")
+	)
+	(wire
+		(pts
 			(xy 215.9 55.88) (xy 215.9 58.42)
 		)
 		(stroke
@@ -5897,17 +6487,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 93.98 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a217a77-e5a0-4b8a-a127-4ffa2ffe332b")
-	)
-	(wire
-		(pts
-			(xy 349.25 220.98) (xy 349.25 226.06)
+			(xy 355.6 218.44) (xy 355.6 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6017,6 +6597,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 160.02) (xy 54.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b32bc6-c73a-4f59-afd9-31d5bfa3ae21")
+	)
+	(wire
+		(pts
 			(xy 312.42 128.27) (xy 317.5 128.27)
 		)
 		(stroke
@@ -6047,7 +6637,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 220.98) (xy 372.11 220.98)
+			(xy 375.92 218.44) (xy 378.46 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6057,7 +6647,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 175.26) (xy 251.46 175.26)
+			(xy 251.46 175.26) (xy 259.08 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6137,7 +6727,17 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 215.9) (xy 349.25 215.9)
+			(xy 172.72 156.21) (xy 176.53 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20286c3b-1d75-4423-885d-1c63f65a4d31")
+	)
+	(wire
+		(pts
+			(xy 337.82 213.36) (xy 355.6 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6157,7 +6757,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 227.33) (xy 323.85 227.33)
+			(xy 322.58 224.79) (xy 330.2 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6167,7 +6767,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 208.28) (xy 349.25 215.9)
+			(xy 355.6 205.74) (xy 355.6 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6207,7 +6807,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 227.33) (xy 344.17 227.33)
+			(xy 337.82 224.79) (xy 350.52 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6257,7 +6857,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 218.44) (xy 336.55 219.71)
+			(xy 342.9 215.9) (xy 342.9 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6274,6 +6874,26 @@
 			(type default)
 		)
 		(uuid "2cf09ee1-557b-4da1-88c4-16582622651a")
+	)
+	(wire
+		(pts
+			(xy 73.66 69.85) (xy 85.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd45f78-6af8-4ec0-9ffe-a09123d9a460")
+	)
+	(wire
+		(pts
+			(xy 259.08 175.26) (xy 266.7 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e130b23-a0a8-49e0-b69e-eecb1cf3fa01")
 	)
 	(wire
 		(pts
@@ -6304,6 +6924,16 @@
 			(type default)
 		)
 		(uuid "311b7ce3-6b26-4e24-9794-0f74e7a067be")
+	)
+	(wire
+		(pts
+			(xy 62.23 69.85) (xy 73.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32df3eae-89a6-4702-856f-1c1f635f9df6")
 	)
 	(wire
 		(pts
@@ -6417,6 +7047,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 175.26) (xy 251.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8c51f3-0403-44db-87ff-f78073451fe1")
+	)
+	(wire
+		(pts
+			(xy 243.84 167.64) (xy 251.46 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc86faf-bd49-4a44-ac59-680b710a2ab2")
+	)
+	(wire
+		(pts
 			(xy 85.09 77.47) (xy 85.09 80.01)
 		)
 		(stroke
@@ -6477,16 +7127,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 175.26) (xy 243.84 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4368f450-1240-4b55-8181-d584049ec8af")
-	)
-	(wire
-		(pts
 			(xy 181.61 55.88) (xy 181.61 58.42)
 		)
 		(stroke
@@ -6494,6 +7134,16 @@
 			(type default)
 		)
 		(uuid "4500855d-0d7c-4660-b28e-f48561f2925b")
+	)
+	(wire
+		(pts
+			(xy 45.72 152.4) (xy 38.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459a8458-30ca-4019-b68f-7238f6e542fb")
 	)
 	(wire
 		(pts
@@ -6557,6 +7207,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 175.26) (xy 243.84 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf81be0-d350-4e62-b435-3b68bfe84393")
+	)
+	(wire
+		(pts
 			(xy 339.09 138.43) (xy 339.09 140.97)
 		)
 		(stroke
@@ -6597,7 +7257,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 215.9) (xy 354.33 215.9)
+			(xy 355.6 213.36) (xy 360.68 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6647,6 +7307,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 165.1) (xy 40.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac08016-0838-476a-907a-9495d9cae18f")
+	)
+	(wire
+		(pts
 			(xy 181.61 78.74) (xy 193.04 78.74)
 		)
 		(stroke
@@ -6687,7 +7357,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 220.98) (xy 354.33 220.98)
+			(xy 355.6 218.44) (xy 360.68 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6707,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 233.68) (xy 349.25 236.22)
+			(xy 355.6 231.14) (xy 355.6 233.68)
 		)
 		(stroke
 			(width 0)
@@ -6737,7 +7407,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 236.22) (xy 316.23 237.49)
+			(xy 322.58 233.68) (xy 322.58 234.95)
 		)
 		(stroke
 			(width 0)
@@ -6754,16 +7424,6 @@
 			(type default)
 		)
 		(uuid "6b67273f-a4c4-4b2a-8a4b-3b9f052eaafa")
-	)
-	(wire
-		(pts
-			(xy 62.23 69.85) (xy 73.66 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c48c977-fd59-4907-bd67-b946cca8010f")
 	)
 	(wire
 		(pts
@@ -6807,7 +7467,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 215.9) (xy 369.57 215.9)
+			(xy 377.19 213.36) (xy 375.92 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6827,23 +7487,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 69.85) (xy 104.14 69.85)
+			(xy 40.64 167.64) (xy 46.99 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73edb517-391a-4fbc-9083-505b69f9a59c")
-	)
-	(wire
-		(pts
-			(xy 172.72 156.21) (xy 176.53 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7537d227-4861-4a26-9ea2-b23fa8d9a809")
+		(uuid "74bb7aa5-acfc-412e-aba3-4afdd650b766")
 	)
 	(wire
 		(pts
@@ -6907,23 +7557,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 175.26) (xy 251.46 182.88)
+			(xy 251.46 175.26) (xy 251.46 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7b13dd21-0dd8-43cf-a460-c4775f8a7057")
-	)
-	(wire
-		(pts
-			(xy 243.84 175.26) (xy 236.22 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d0610fd-82f8-4e83-8753-83621303dc19")
 	)
 	(wire
 		(pts
@@ -6947,7 +7587,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 218.44) (xy 336.55 218.44)
+			(xy 360.68 215.9) (xy 342.9 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6977,16 +7617,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 53.34) (xy 120.65 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b8201f-fca8-4b75-9ff1-0d0b1cc40164")
-	)
-	(wire
-		(pts
 			(xy 250.19 66.04) (xy 250.19 67.31)
 		)
 		(stroke
@@ -7004,6 +7634,16 @@
 			(type default)
 		)
 		(uuid "86db48d3-7ecf-4933-b6a6-54645994e99e")
+	)
+	(wire
+		(pts
+			(xy 54.61 160.02) (xy 54.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8702ddbc-a0af-4d1c-9df5-c8f322a78cb9")
 	)
 	(wire
 		(pts
@@ -7027,13 +7667,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 167.64) (xy 259.08 167.64)
+			(xy 314.96 213.36) (xy 314.96 201.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89d65946-d086-4fbc-b99d-9b7254bceb59")
+		(uuid "8ac40efb-4907-4d59-adb3-e7c4c929d1a3")
 	)
 	(wire
 		(pts
@@ -7057,13 +7697,23 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 215.9) (xy 323.85 215.9)
+			(xy 322.58 213.36) (xy 330.2 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8d303458-ddda-4520-82f4-91e239bc5524")
+	)
+	(wire
+		(pts
+			(xy 38.1 162.56) (xy 40.64 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e32b361-ec4a-4518-afec-34efe4f3a9c1")
 	)
 	(wire
 		(pts
@@ -7207,16 +7857,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 175.26) (xy 259.08 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a69eb2b-2414-4ca2-985f-2d384764ae0c")
-	)
-	(wire
-		(pts
 			(xy 138.43 228.6) (xy 138.43 233.68)
 		)
 		(stroke
@@ -7224,26 +7864,6 @@
 			(type default)
 		)
 		(uuid "9ac30c3b-5782-4825-950d-40ad2c97bc93")
-	)
-	(wire
-		(pts
-			(xy 274.32 167.64) (xy 266.7 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b3ec23d-118f-489c-bf1b-9905f7301a13")
-	)
-	(wire
-		(pts
-			(xy 172.72 158.75) (xy 176.53 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c531ed2-1d1e-4abb-b351-b4b7a34456f4")
 	)
 	(wire
 		(pts
@@ -7267,13 +7887,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 69.85) (xy 115.57 69.85)
+			(xy 93.98 69.85) (xy 104.14 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9cfc1581-85d9-4757-8525-dfdcd961b0f8")
+	)
+	(wire
+		(pts
+			(xy 38.1 160.02) (xy 40.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d09d59e-d332-4a46-999e-7860cbb6651b")
 	)
 	(wire
 		(pts
@@ -7297,6 +7927,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 158.75) (xy 176.53 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1405d5d-79cf-4017-a768-24691777a363")
+	)
+	(wire
+		(pts
 			(xy 69.85 223.52) (xy 71.12 223.52)
 		)
 		(stroke
@@ -7317,13 +7957,53 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 175.26) (xy 266.7 175.26)
+			(xy 38.1 167.64) (xy 40.64 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7ae45a8-e3fd-41ca-9fa4-8c7ed6fb887e")
+		(uuid "a508a75b-96e1-4bf0-ba44-eb59ff29dbda")
+	)
+	(wire
+		(pts
+			(xy 45.72 149.86) (xy 38.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a593888a-ce30-44de-9faf-b7d049545ad9")
+	)
+	(wire
+		(pts
+			(xy 236.22 167.64) (xy 243.84 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8689594-b28e-420c-b254-43e2454aa892")
+	)
+	(wire
+		(pts
+			(xy 314.96 201.93) (xy 313.69 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91513da-900f-4179-ae94-7780358384f9")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93d75c9-15e4-41d1-8f03-f3272bb7632f")
 	)
 	(wire
 		(pts
@@ -7347,16 +8027,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 167.64) (xy 236.22 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae5a417-9e54-479a-89df-f15602d97b7f")
-	)
-	(wire
-		(pts
 			(xy 339.09 171.45) (xy 360.68 171.45)
 		)
 		(stroke
@@ -7364,16 +8034,6 @@
 			(type default)
 		)
 		(uuid "ab94a094-2e87-4adc-b39d-dbac13d1e224")
-	)
-	(wire
-		(pts
-			(xy 73.66 69.85) (xy 85.09 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad059f8a-ef0a-4df7-bbfa-35d8edee0bfb")
 	)
 	(wire
 		(pts
@@ -7457,16 +8117,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 167.64) (xy 228.6 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b187c9aa-6ede-4698-b0ac-e6ed28c22497")
-	)
-	(wire
-		(pts
 			(xy 228.6 146.05) (xy 228.6 144.78)
 		)
 		(stroke
@@ -7477,13 +8127,23 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 227.33) (xy 316.23 227.33)
+			(xy 314.96 224.79) (xy 322.58 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b28e02b9-5bb4-4181-b0b0-9c52ab9b5970")
+	)
+	(wire
+		(pts
+			(xy 40.64 162.56) (xy 40.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a0bd66-18d4-4173-bff9-f7365f5ecb9e")
 	)
 	(wire
 		(pts
@@ -7497,7 +8157,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 198.12) (xy 349.25 200.66)
+			(xy 355.6 195.58) (xy 355.6 198.12)
 		)
 		(stroke
 			(width 0)
@@ -7507,7 +8167,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 220.98) (xy 349.25 220.98)
+			(xy 350.52 218.44) (xy 355.6 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7567,7 +8227,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 205.74) (xy 316.23 207.01)
+			(xy 322.58 203.2) (xy 322.58 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7607,7 +8267,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 167.64) (xy 243.84 167.64)
+			(xy 228.6 167.64) (xy 236.22 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7624,16 +8284,6 @@
 			(type default)
 		)
 		(uuid "bc11cfcf-125b-4f84-8e27-054a874ca403")
-	)
-	(wire
-		(pts
-			(xy 128.27 53.34) (xy 133.35 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc6ed65b-dbb8-4860-9774-d13f6377ca2a")
 	)
 	(wire
 		(pts
@@ -7697,6 +8347,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 167.64) (xy 266.7 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ec9d5a-4502-4998-a169-b06777e794c8")
+	)
+	(wire
+		(pts
 			(xy 69.85 228.6) (xy 71.12 228.6)
 		)
 		(stroke
@@ -7704,6 +8364,16 @@
 			(type default)
 		)
 		(uuid "c6293992-4cac-450d-8cad-ae78518a2c95")
+	)
+	(wire
+		(pts
+			(xy 45.72 157.48) (xy 38.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69c083d-e19b-4fdc-b771-90aa65a003a5")
 	)
 	(wire
 		(pts
@@ -7817,6 +8487,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 224.79) (xy 314.96 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d556d012-ae66-452f-a223-aaec9454aa63")
+	)
+	(wire
+		(pts
 			(xy 250.19 74.93) (xy 250.19 78.74)
 		)
 		(stroke
@@ -7827,7 +8507,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 214.63) (xy 316.23 215.9)
+			(xy 322.58 212.09) (xy 322.58 213.36)
 		)
 		(stroke
 			(width 0)
@@ -7847,7 +8527,17 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 215.9) (xy 316.23 215.9)
+			(xy 38.1 165.1) (xy 40.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73c0a0d-8ac5-4f6f-8185-e5272dbcf90e")
+	)
+	(wire
+		(pts
+			(xy 314.96 213.36) (xy 322.58 213.36)
 		)
 		(stroke
 			(width 0)
@@ -7857,7 +8547,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 175.26) (xy 228.6 175.26)
+			(xy 228.6 175.26) (xy 236.22 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7867,7 +8557,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 227.33) (xy 344.17 220.98)
+			(xy 350.52 224.79) (xy 350.52 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7897,7 +8587,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 220.98) (xy 372.11 222.25)
+			(xy 378.46 218.44) (xy 378.46 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7987,6 +8677,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 175.26) (xy 274.32 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96d99e7-ebe2-4873-874b-e3c2e6540741")
+	)
+	(wire
+		(pts
 			(xy 74.93 132.08) (xy 76.2 132.08)
 		)
 		(stroke
@@ -7994,6 +8694,16 @@
 			(type default)
 		)
 		(uuid "e9ae2a79-3e9f-48dc-b8e3-be447ff570c0")
+	)
+	(wire
+		(pts
+			(xy 85.09 69.85) (xy 93.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e71b61-ec95-4062-94df-cb204cd3eced")
 	)
 	(wire
 		(pts
@@ -8047,7 +8757,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 167.64) (xy 251.46 167.64)
+			(xy 251.46 167.64) (xy 259.08 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8087,7 +8797,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 227.33) (xy 316.23 228.6)
+			(xy 322.58 224.79) (xy 322.58 226.06)
 		)
 		(stroke
 			(width 0)
@@ -8117,6 +8827,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 167.64) (xy 274.32 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6de45d-da6f-452e-a04a-e6a5337528d4")
+	)
+	(wire
+		(pts
 			(xy 250.19 55.88) (xy 261.62 55.88)
 		)
 		(stroke
@@ -8126,7 +8846,7 @@
 		(uuid "ff4b7c2c-b3a7-4947-bf90-ca538bec5ad5")
 	)
 	(label "MUTE"
-		(at 370.84 215.9 0)
+		(at 377.19 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8135,15 +8855,15 @@
 		)
 		(uuid "13fe84de-3870-4117-b58f-c5a9bf9383dc")
 	)
-	(label "OUT_B"
-		(at 308.61 227.33 180)
+	(label "SWDIO"
+		(at 45.72 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "32eccd6f-19c2-4e0e-9c62-b165a564aa05")
+		(uuid "2de678ec-f97f-4ebf-9e1a-1ca12dab45ec")
 	)
 	(label "LED"
 		(at 201.93 86.36 180)
@@ -8164,6 +8884,16 @@
 			(justify right bottom)
 		)
 		(uuid "5ee1e03b-f696-483b-9217-db8a60f5614b")
+	)
+	(label "OUT_A"
+		(at 298.45 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6005c542-9802-4354-b1c9-a6a8e6a55559")
 	)
 	(label "DB7"
 		(at 73.66 154.94 180)
@@ -8234,6 +8964,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ba913bb-6655-4d1e-b71c-7fd9028a638f")
+	)
+	(label "NRST"
+		(at 45.72 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e118955-5e8f-4d26-bb23-b26215163c77")
 	)
 	(label "USB_D+"
 		(at 121.92 121.92 0)
@@ -8325,16 +9065,6 @@
 		)
 		(uuid "bb88a4b5-8783-4d88-a9f3-318a6091b1c2")
 	)
-	(label "OUT_A"
-		(at 308.61 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd52c972-b540-4806-bc55-f8d8e8ebfff9")
-	)
 	(label "DB4"
 		(at 172.72 156.21 180)
 		(effects
@@ -8364,6 +9094,16 @@
 			(justify left bottom)
 		)
 		(uuid "c6f81ffd-2a62-40f1-92bf-dbceff3ddaff")
+	)
+	(label "OUT_B"
+		(at 298.45 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc5b0d26-0321-4b6f-8dd4-00f0f30f1bf1")
 	)
 	(label "DB5"
 		(at 172.72 158.75 180)
@@ -8405,6 +9145,16 @@
 		)
 		(uuid "eda482cf-c6be-44a5-87c9-503602ffcb78")
 	)
+	(label "SWCLK"
+		(at 45.72 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef203726-1870-42cf-93ad-258263756070")
+	)
 	(label "DB6"
 		(at 73.66 152.4 180)
 		(effects
@@ -8414,6 +9164,16 @@
 			(justify right bottom)
 		)
 		(uuid "f2879806-f726-4436-8887-ac01015767f9")
+	)
+	(label "NRST"
+		(at 43.18 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7921822-d0aa-48ec-8c66-463730c690db")
 	)
 	(global_label "Column 2"
 		(shape input)
@@ -8680,73 +9440,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 236.22 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00506ab5-4329-4eff-b38e-d3de72df0fc7")
-		(property "Reference" "R24"
-			(at 233.934 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 238.76 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.998 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 236.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e4d7c07-5c07-4452-8353-850561a58a2b")
-		)
-		(pin "2"
-			(uuid "171f20b5-d305-441a-81d5-4fa4608543e6")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 339.09 133.35 270)
 		(unit 1)
@@ -8816,35 +9509,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 133.35 57.15 0)
+		(lib_id "Device:R")
+		(at 334.01 213.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bee4acb-8776-4e0a-8b50-f6185b51afa0")
-		(property "Reference" "C9"
-			(at 137.16 55.8799 0)
+		(uuid "02d7d3e1-91b3-4e5a-a5ab-65a9fe803ae1")
+		(property "Reference" "R14"
+			(at 334.01 211.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 137.16 58.4199 0)
+		(property "Value" "10k"
+			(at 334.01 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.3152 60.96 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 334.01 215.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8853,7 +9543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 57.15 0)
+			(at 334.01 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,8 +9551,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 133.35 57.15 0)
+		(property "Description" "Resistor"
+			(at 334.01 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR01MZPJ103 "
+			(at 334.01 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/ROHM-Semiconductor/ESR01MZPJ103?qs=sGAEpiMZZMtlubZbdhIBICz%2FtfrlArmdFcNzDZxAQcM%3D"
+			(at 334.01 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,32 +9579,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9ca8c37-210d-40f9-a5b4-8012b7c0b0e4")
+			(uuid "2ea26ed3-98b8-4b1d-98ef-3109e9cc287e")
 		)
 		(pin "2"
-			(uuid "7e81767d-715c-4d82-84b4-f1f774438b8c")
+			(uuid "43d326f0-437f-4c5a-a9d3-66924f260939")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 251.46 182.88 180)
+		(lib_id "power:GND")
+		(at 306.07 228.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0e951699-c04a-4286-a79c-4c5a340cf932")
-		(property "Reference" "#PWR032"
-			(at 251.46 179.07 0)
+		(uuid "0663bbd6-ad1f-4cbd-bf56-481df0f5fda4")
+		(property "Reference" "#PWR013"
+			(at 306.07 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,17 +9612,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 251.4601 186.69 90)
+		(property "Value" "GND"
+			(at 306.07 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 182.88 0)
+			(at 306.07 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +9630,162 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 182.88 0)
+			(at 306.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64fd3435-d710-4b46-82a3-829ef00929c5")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a14df6d-47fb-4ea4-ab2a-98d82c1a838d")
+		(property "Reference" "C13"
+			(at 132.08 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 132.08 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.2352 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM21R61A475KE34D "
+			(at 128.27 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM219R61A475KE34D?qs=sGAEpiMZZMsh%252B1woXyUXjxMP0kM0JlaOxtwLnxkjVn4%3D"
+			(at 128.27 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c299964-4b2b-4f72-91b6-c13cc0a4c64f")
+		)
+		(pin "2"
+			(uuid "61521ca4-e647-4054-90fd-d6aa2b7a744a")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 251.46 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e951699-c04a-4286-a79c-4c5a340cf932")
+		(property "Reference" "#PWR032"
+			(at 251.46 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 251.4601 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,7 +9794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 251.46 182.88 0)
+			(at 251.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,73 +9809,6 @@
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 259.08 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10036174-2aad-40a5-a9bc-877f9cc9fdc7")
-		(property "Reference" "R21"
-			(at 256.794 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 261.62 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.858 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 259.08 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e43538c-9bcf-4a58-85df-b2c8baca4049")
-		)
-		(pin "2"
-			(uuid "25532f4e-c39a-47cf-814b-cff132e6a942")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -9047,7 +9842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_footprints:SOT95P230X110-3N"
 			(at 218.44 83.82 0)
 			(effects
 				(font
@@ -9101,6 +9896,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "771-NX3020NAK-QR "
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81aa4d86-f32f-443e-a975-ba342f976659")
 		)
@@ -9114,85 +9918,6 @@
 			(project ""
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 238.76 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "111ac6f2-1aa1-440e-b455-bff3d00b2cd2")
-		(property "Reference" "D14"
-			(at 242.57 71.4374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 242.57 73.9774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 238.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 238.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18290126-acaf-469e-b4b1-7665b5eab893")
-		)
-		(pin "2"
-			(uuid "3d30971a-5576-4a66-aed3-e8e45614b127")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -9223,7 +9948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.958 62.23 90)
 			(effects
 				(font
@@ -9250,6 +9975,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 170.18 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RC0402JR-7D330RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDuRhOe%2FHoRr4%3D"
+			(at 170.18 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6aa38d8-d521-45d1-b3a5-5256fc89e068")
 		)
@@ -9260,6 +10003,137 @@
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14de5bb7-4a68-45aa-b9c5-abab2eec44dd")
+		(property "Reference" "#PWR033"
+			(at 54.61 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d15f777-71dd-432b-a318-b548118590cb")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 114.3 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b5729be-a4a5-4b97-a937-9fdf503d34f2")
+		(property "Reference" "#PWR02"
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d04c3de-6b40-4ed0-a874-708210ff793b")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9332,31 +10206,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 250.19 62.23 180)
+		(at 81.28 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1ee388b9-e20c-4040-940b-9c68a9f6a493")
-		(property "Reference" "R7"
-			(at 247.904 62.23 90)
+		(uuid "1e1e3b5d-5e8e-41ff-8f5e-53663f820a2d")
+		(property "Reference" "R17"
+			(at 83.566 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 252.73 62.23 90)
+		(property "Value" "5k1"
+			(at 78.74 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 251.968 62.23 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 79.502 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9365,7 +10239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 62.23 0)
+			(at 81.28 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +10248,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 250.19 62.23 0)
+			(at 81.28 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number " "71-RCC04025K10FKED"
+			(at 81.28 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,15 +10266,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d86a47b0-b5a3-4dba-b6a3-84adf9ab5b69")
+			(uuid "da40664d-2c5a-4e8b-aa45-d40a50715ead")
 		)
 		(pin "2"
-			(uuid "09c1ada3-211c-4e72-b1a1-60b1afce8a46")
+			(uuid "8c6da6c0-7b1e-41f0-98d5-e7d451869864")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R7")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9425,7 +10308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.1952 77.47 0)
 			(effects
 				(font
@@ -9452,6 +10335,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM022C81A104ME5L "
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RC0402JR-7D330RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDuRhOe%2FHoRr4%3D"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dd48f32-2fea-4ea1-bb38-c6accae8b8fe")
 		)
@@ -9462,6 +10363,82 @@
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "280eeb5b-5e8f-4469-8017-03ec4d74c9c3")
+		(property "Reference" "R21"
+			(at 256.794 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 261.62 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 260.858 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 259.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a87d239-7b41-45e8-ae77-1c85b0791408")
+		)
+		(pin "2"
+			(uuid "64f0a9f9-901c-40aa-8983-085ec36a3b17")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -9603,6 +10580,94 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 322.58 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "300c807b-f9c7-40fc-b0cb-cc7f1ae91111")
+		(property "Reference" "C11"
+			(at 326.39 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 326.39 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 323.5452 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 322.58 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM022C81A104ME5L "
+			(at 322.58 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RC0402JR-7D330RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDuRhOe%2FHoRr4%3D"
+			(at 322.58 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d00cd46b-6180-4cb2-97d6-47f21de521d6")
+		)
+		(pin "2"
+			(uuid "4f0a5d72-b43d-4fb1-85ac-d606c98949b0")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 114.3 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9629,7 +10694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 60.96 0)
 			(effects
 				(font
@@ -9648,6 +10713,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GXT155R61A105KE1D "
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GXT155R61A105KE01D?qs=sGAEpiMZZMsh%252B1woXyUXj1odAWdFQpiLp1DwOHQF%2F84%3D"
 			(at 114.3 57.15 0)
 			(effects
 				(font
@@ -9871,25 +10954,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 361.95 218.44 0)
+		(lib_id "power:+5V")
+		(at 355.6 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d6a26a5-30e2-485d-a70c-02f51e6fca2b")
-		(property "Reference" "SW11"
-			(at 361.95 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 361.95 210.82 0)
+		(uuid "3549ab88-7e89-4c09-9c9c-481383e56a48")
+		(property "Reference" "#PWR07"
+			(at 355.6 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,8 +10972,80 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "+5V"
+			(at 355.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 358.14 214.376 0)
+			(at 355.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 355.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee57561e-86b4-44a7-81c5-216c0b5e5b0e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 274.32 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38047f78-d2e9-452f-a0f6-05e4ef36f3bc")
+		(property "Reference" "R23"
+			(at 272.034 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 276.86 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 276.098 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9907,7 +11054,173 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 361.95 211.836 0)
+			(at 274.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 274.32 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65485c5f-f285-43d2-8373-4fdaa816af12")
+		)
+		(pin "2"
+			(uuid "6035c557-e508-4d7c-bf76-7a1cbfa949f1")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38dbfd75-771d-402c-8acb-27da05891a8c")
+		(property "Reference" "C2"
+			(at 88.9 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 88.9 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 86.0552 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM022C81A104ME5L "
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RC0402JR-7D330RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDuRhOe%2FHoRr4%3D"
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b592955-0820-4fc5-9922-1393d7075a12")
+		)
+		(pin "2"
+			(uuid "e59c9f99-761f-4065-9b14-36e056c80738")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 368.3 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d6a26a5-30e2-485d-a70c-02f51e6fca2b")
+		(property "Reference" "SW11"
+			(at 368.3 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 368.3 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "my_footprints:PEC12R3220FS0024"
+			(at 364.49 211.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 209.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +11229,16 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 361.95 218.44 0)
+			(at 368.3 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PEC12R3220FS0024 "
+			(at 368.3 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,8 +11271,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 193.04 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e71b977-912f-41bd-8f62-cbf8e6e2ba0d")
+		(property "Reference" "D11"
+			(at 196.85 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 196.85 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HLMP-Y301-F0000 "
+			(at 193.04 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Broadcom-Avago/HLMP-Y301-F0000?qs=sGAEpiMZZMvVL5Kk7ZYykbom%2FANWpogx2mp9amzFFB8%3D"
+			(at 193.04 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2669b99-a056-43e4-aa05-cec7c25ee8d1")
+		)
+		(pin "2"
+			(uuid "cdd2e010-d89f-4941-98cc-a11507896cc5")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 336.55 219.71 0)
+		(at 342.9 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9959,7 +11378,7 @@
 		(fields_autoplaced yes)
 		(uuid "40eda520-e601-4785-9c84-ffa36bd79483")
 		(property "Reference" "#PWR015"
-			(at 336.55 226.06 0)
+			(at 342.9 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9968,7 +11387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 336.55 224.79 0)
+			(at 342.9 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,7 +11395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 219.71 0)
+			(at 342.9 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +11404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 219.71 0)
+			(at 342.9 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9994,7 +11413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 336.55 219.71 0)
+			(at 342.9 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,73 +11522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 81.28 247.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "432fa0d4-64bc-4064-bb9c-51d13c275bfd")
-		(property "Reference" "R17"
-			(at 83.566 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5k1"
-			(at 78.74 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 79.502 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 81.28 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f87a162d-697f-4551-912e-51db2361dee0")
-		)
-		(pin "2"
-			(uuid "79af47e1-475b-4c38-a4c8-72f86d665d4e")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "NHD-0208BZ-FL-YBW_1")
 		(lib_id "NHD-0208BZ-FL-YBW:NHD-0208BZ-FL-YBW")
 		(at 176.53 139.7 0)
@@ -10178,7 +11530,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4353c198-6123-4927-a905-da0629d64861")
 		(property "Reference" "DS2"
 			(at 192.6433 132.08 0)
@@ -10198,14 +11549,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NHD0208BZFLYBW"
-			(at 200.66 234.62 0)
+		(property "Footprint" "NHD:NHD0208BZFLYBW"
+			(at 162.052 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.newhavendisplay.com/specs/NHD-0208BZ-FL-YBW.pdf"
@@ -10335,140 +11685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 243.84 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "448c7dd5-c0b0-4ad5-8ccb-42bd8003d650")
-		(property "Reference" "R23"
-			(at 241.554 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 246.38 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.618 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ce729d8-62a2-4de2-93ec-0e8fe8244b72")
-		)
-		(pin "2"
-			(uuid "a0b0a6a2-f328-41a9-a134-788527acb62c")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 327.66 215.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44c108f7-9d43-4768-9302-07732f643237")
-		(property "Reference" "R13"
-			(at 327.66 213.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 327.66 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 217.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 327.66 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1babdd7c-c110-4ec9-a554-a5fecaf83bb0")
-		)
-		(pin "2"
-			(uuid "4a95e98a-1a6a-43f9-9f9c-75f4c25c740b")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 181.61 71.12 90)
 		(unit 1)
@@ -10477,8 +11693,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "44d7e6d7-53cb-4f8b-a0ba-09fc95b45bf7")
-		(property "Reference" "D17"
+		(uuid "451cbaf7-ab95-4de2-8078-e79d49bad884")
+		(property "Reference" "D10"
 			(at 185.42 71.4374 90)
 			(effects
 				(font
@@ -10496,7 +11712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 181.61 71.12 0)
 			(effects
 				(font
@@ -10532,16 +11748,110 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "630-HLMP-Y301-F0000 "
+			(at 181.61 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Broadcom-Avago/HLMP-Y301-F0000?qs=sGAEpiMZZMvVL5Kk7ZYykbom%2FANWpogx2mp9amzFFB8%3D"
+			(at 181.61 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "ed1fef8a-24e1-4eee-a85a-a49f28caf93b")
+			(uuid "69d707f1-0e4b-4307-9ef1-a7d01d26eff6")
 		)
 		(pin "2"
-			(uuid "1fec0c38-0c43-4f43-bf8f-91952d7f75e4")
+			(uuid "304d3645-2cc3-4d34-938a-791087cb12fc")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "D17")
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "456a49be-e869-496d-867c-9fbbc180eb31")
+		(property "Reference" "R19"
+			(at 241.554 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 246.38 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 245.618 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 243.84 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cba470d7-415b-429a-9922-9c1b221ab2ca")
+		)
+		(pin "2"
+			(uuid "813b87d6-61e9-4762-9581-273610495564")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10575,7 +11885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -10611,6 +11921,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "630-HLMP-Y301-F0000 "
+			(at 170.18 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Broadcom-Avago/HLMP-Y301-F0000?qs=sGAEpiMZZMvVL5Kk7ZYykbom%2FANWpogx2mp9amzFFB8%3D"
+			(at 170.18 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e455896-0757-4f05-b467-54dbf8436702")
 		)
@@ -10627,32 +11955,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 274.32 171.45 180)
+		(lib_id "Device:C")
+		(at 104.14 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "46e39b0d-e12f-4304-b917-14241d91a8e9")
-		(property "Reference" "R19"
-			(at 272.034 171.45 90)
+		(fields_autoplaced yes)
+		(uuid "470a68c2-06bf-43de-b9b4-dabc8faeb351")
+		(property "Reference" "C5"
+			(at 107.95 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "330R"
-			(at 276.86 171.45 90)
+		(property "Value" "100n"
+			(at 107.95 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 276.098 171.45 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 105.1052 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,7 +11992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 171.45 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10669,8 +12000,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 274.32 171.45 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM022C81A104ME5L "
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RC0402JR-7D330RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDuRhOe%2FHoRr4%3D"
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,15 +12028,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0eb9a346-95f3-4654-a18d-73d4ca02ef28")
+			(uuid "f8d180fa-956e-473f-8a4e-f692e95732d1")
 		)
 		(pin "2"
-			(uuid "6a59f5e0-bd91-4836-ae8f-893ddebfe543")
+			(uuid "4ccccd01-d311-428b-8239-9628fd77934f")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R19")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10783,76 +12132,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 316.23 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b3770a5-90f9-447a-a680-f1b683b001d3")
-		(property "Reference" "C11"
-			(at 320.04 209.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 320.04 212.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 317.1952 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 316.23 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 316.23 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "272ee807-c740-4fa2-87c5-b4d371cb4713")
-		)
-		(pin "2"
-			(uuid "2f076365-6357-4a56-9845-b8d014fe9009")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 50.8 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10879,7 +12158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 51.7652 77.47 0)
 			(effects
 				(font
@@ -10906,6 +12185,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM21R61A475KE34D "
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM219R61A475KE34D?qs=sGAEpiMZZMsh%252B1woXyUXjxMP0kM0JlaOxtwLnxkjVn4%3D"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eeb61f77-b788-451f-8011-bd0edfdbfaa5")
 		)
@@ -10916,6 +12213,82 @@
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 251.46 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d7f4f24-06c7-420a-bd55-df009efedc92")
+		(property "Reference" "R20"
+			(at 249.174 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 254 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 253.238 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 251.46 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "595537c8-92cd-4c10-ac4a-66754d081159")
+		)
+		(pin "2"
+			(uuid "3a118957-2259-4de2-95fa-8335f82c957c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10988,6 +12361,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 215.9 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "507ad737-de5d-4a3a-941f-7aa9c960450d")
+		(property "Reference" "D13"
+			(at 219.71 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 219.71 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HLMP-Y301-F0000 "
+			(at 215.9 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Broadcom-Avago/HLMP-Y301-F0000?qs=sGAEpiMZZMvVL5Kk7ZYykbom%2FANWpogx2mp9amzFFB8%3D"
+			(at 215.9 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9eddb5b6-d51c-437b-b318-c3c453922452")
+		)
+		(pin "2"
+			(uuid "89bc77d4-0966-4861-b161-e9f705f1b637")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 190.5 128.27 0)
 		(unit 1)
@@ -11048,6 +12518,94 @@
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 322.58 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "552646f3-1e61-4a32-9499-6f6d57497141")
+		(property "Reference" "C12"
+			(at 326.39 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 326.39 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 323.5452 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 322.58 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM022C81A104ME5L "
+			(at 322.58 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RC0402JR-7D330RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDuRhOe%2FHoRr4%3D"
+			(at 322.58 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05b2756f-bb32-466f-ab6d-6c0a75e66d3f")
+		)
+		(pin "2"
+			(uuid "e24e21cd-5c07-4b3c-9e95-fe1c345be69b")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11123,101 +12681,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 349.25 236.22 180)
+		(lib_id "Device:LED")
+		(at 261.62 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a457cde-47d4-4570-9455-0ebd52ad4e8c")
-		(property "Reference" "#PWR014"
-			(at 349.25 232.41 0)
+		(uuid "57301315-3055-4ee7-8ae5-87d9339d85b2")
+		(property "Reference" "D17"
+			(at 265.43 71.4374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 349.25 241.3 0)
+		(property "Value" "LED"
+			(at 265.43 73.9774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 349.25 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 349.25 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8020132b-f4b3-499f-916b-3917006f35c0")
-		)
-		(instances
-			(project ""
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 316.23 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5af3d13d-c322-4494-9eac-64b9f4d2b3de")
-		(property "Reference" "C12"
-			(at 320.04 231.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 320.04 233.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 317.1952 236.22 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 261.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +12718,104 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 316.23 232.41 0)
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HLMP-Y301-F0000 "
+			(at 261.62 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Broadcom-Avago/HLMP-Y301-F0000?qs=sGAEpiMZZMvVL5Kk7ZYykbom%2FANWpogx2mp9amzFFB8%3D"
+			(at 261.62 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc662caf-a094-4194-b09a-07a7e3d8699d")
+		)
+		(pin "2"
+			(uuid "6682ef9b-a150-4437-8d25-f5d67631acf7")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ba0125-7223-4683-baa6-6189866f3d6d")
+		(property "Reference" "C14"
+			(at 176.53 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 176.53 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 173.6852 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11235,7 +12824,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 316.23 232.41 0)
+			(at 172.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM21R61A475KE34D "
+			(at 172.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM219R61A475KE34D?qs=sGAEpiMZZMsh%252B1woXyUXjxMP0kM0JlaOxtwLnxkjVn4%3D"
+			(at 172.72 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,32 +12851,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f93a682-6c66-4957-94f4-c6bafd72771d")
+			(uuid "ba891a26-4915-49d6-b256-98dffa6229f3")
 		)
 		(pin "2"
-			(uuid "2710a65f-9c82-488f-a2d4-30aafe0462bf")
+			(uuid "7452b695-32fe-4817-926d-c38aac10cda8")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 102.87 53.34 0)
+		(lib_id "power:+3.3V")
+		(at 46.99 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5d46adf3-ae31-4482-9b08-ebb087d66824")
-		(property "Reference" "#PWR02"
-			(at 102.87 57.15 0)
+		(uuid "5ac4213e-fffb-4c7e-8462-50ad013c2669")
+		(property "Reference" "#PWR034"
+			(at 46.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11277,8 +12884,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
-			(at 102.87 48.26 0)
+		(property "Value" "+3.3V"
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +12893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 53.34 0)
+			(at 46.99 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11295,7 +12902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 53.34 0)
+			(at 46.99 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,8 +12910,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 102.87 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11313,12 +12920,88 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fa0a677-babc-40cd-b0de-e70203392d78")
+			(uuid "f26b4d9b-36cd-4f7e-9cea-f02222ff86cf")
 		)
 		(instances
 			(project ""
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "#PWR02")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c4851b3-2450-439d-9c61-c382c64c6cd7")
+		(property "Reference" "R7"
+			(at 236.474 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 241.3 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.538 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 238.76 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ba876b2-a6af-43bd-a446-511f6ee1368c")
+		)
+		(pin "2"
+			(uuid "bdf419c1-4767-4ca2-8294-d68e420596c0")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11326,7 +13009,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 316.23 205.74 180)
+		(at 322.58 203.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11335,7 +13018,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e1fae88-d6d8-488c-93f6-0199bd068d06")
 		(property "Reference" "#PWR017"
-			(at 316.23 199.39 0)
+			(at 322.58 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +13027,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 200.66 0)
+			(at 322.58 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11352,7 +13035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 205.74 0)
+			(at 322.58 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11361,7 +13044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 205.74 0)
+			(at 322.58 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11370,7 +13053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 316.23 205.74 0)
+			(at 322.58 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11565,7 +13248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_footprints:TS0266100BK100LCRD"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -11584,6 +13267,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "179-TS026655BK260LCR "
 			(at 44.45 118.11 0)
 			(effects
 				(font
@@ -11615,8 +13307,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "666561fb-13ab-46f8-9350-2365cf74064d")
-		(property "Reference" "R2"
+		(uuid "66ac17c3-ee0d-4ed4-ae9c-6adccc979d11")
+		(property "Reference" "R3"
 			(at 190.754 62.23 90)
 			(effects
 				(font
@@ -11632,7 +13324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 194.818 62.23 90)
 			(effects
 				(font
@@ -11659,51 +13351,59 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 193.04 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "761a9c42-3374-434d-bfff-f3dad36b0adf")
+			(uuid "f15e55ac-5379-403a-bd24-7c2cbbefb6dc")
 		)
 		(pin "2"
-			(uuid "956e1136-d3eb-4b1f-8d10-cfdb744480dc")
+			(uuid "62086da8-3fc5-4d57-b29b-9e7f57ca8d97")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 128.27 238.76 0)
+		(lib_id "power:GND")
+		(at 306.07 194.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d2660b5-7daa-49af-a9b6-b9537d9e6b04")
-		(property "Reference" "C14"
-			(at 132.08 237.4899 0)
+		(uuid "6972cd3d-71f8-4012-8768-7f40d00842f3")
+		(property "Reference" "#PWR014"
+			(at 306.07 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 132.08 240.0299 0)
+		(property "Value" "GND"
+			(at 306.07 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 129.2352 242.57 0)
+			(at 306.07 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,8 +13411,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 128.27 238.76 0)
+		(property "Datasheet" ""
+			(at 306.07 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,8 +13420,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 238.76 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11730,15 +13430,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa47ea31-b9b4-4187-ac00-2633da3a44fa")
-		)
-		(pin "2"
-			(uuid "24362727-551b-4d36-97f0-2cc027cdbe1b")
+			(uuid "9342e1ae-2ca0-43e5-a8ee-27747f6faa2c")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C14")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11815,16 +13512,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 227.33 71.12 90)
+		(at 250.19 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "705168bd-889d-4451-80c2-7849cd02427b")
-		(property "Reference" "D13"
-			(at 231.14 71.4374 90)
+		(uuid "6fb69f52-79d9-4359-8e62-81927a78273b")
+		(property "Reference" "D16"
+			(at 254 71.4374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +13530,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 231.14 73.9774 90)
+			(at 254 73.9774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11841,8 +13538,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 227.33 71.12 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 250.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11851,7 +13548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 71.12 0)
+			(at 250.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11860,7 +13557,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 227.33 71.12 0)
+			(at 250.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11869,7 +13566,25 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 227.33 71.12 0)
+			(at 250.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HLMP-Y301-F0000 "
+			(at 250.19 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Broadcom-Avago/HLMP-Y301-F0000?qs=sGAEpiMZZMvVL5Kk7ZYykbom%2FANWpogx2mp9amzFFB8%3D"
+			(at 250.19 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11878,15 +13593,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "01f05c0e-25d9-435a-bc81-63fbd99fc00b")
+			(uuid "3e6b0246-e1a1-473f-a614-f93fbd896b03")
 		)
 		(pin "2"
-			(uuid "981476ea-c79a-402b-b075-9dc73666427d")
+			(uuid "438dd06a-f08c-4a4b-ab7f-51acdc713646")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "D13")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -12047,73 +13762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 204.47 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71d7bd7d-845f-4e63-b5d6-d0a7efb50bb0")
-		(property "Reference" "R3"
-			(at 202.184 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 207.01 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 206.248 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6c7a631-656d-458c-af6d-6c02f5802292")
-		)
-		(pin "2"
-			(uuid "12343fe8-522a-46e7-95b3-fff483eb7346")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 82.55 0)
 		(unit 1)
@@ -12207,7 +13855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "my_footprints:601030"
 			(at 228.6 140.97 0)
 			(effects
 				(font
@@ -12226,6 +13874,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 228.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "581-601030 "
 			(at 228.6 140.97 0)
 			(effects
 				(font
@@ -12319,6 +13976,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 215.9 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73d476fe-924b-419e-9595-155ec3dc39a2")
+		(property "Reference" "R5"
+			(at 213.614 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 218.44 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 217.678 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 215.9 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1c6da4b-9a5d-416b-939a-4eb07ee0ef60")
+		)
+		(pin "2"
+			(uuid "d3558f89-cdf3-4eee-9a47-ffde6119e3a7")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 355.6 233.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "750b9372-49c3-4eea-b37a-8f41ac8f8fb3")
+		(property "Reference" "#PWR08"
+			(at 355.6 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 355.6 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 355.6 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55ea79ef-fe46-4386-aa72-b2824ad9ea44")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 92.71 0)
 		(unit 1)
@@ -12379,6 +14178,91 @@
 			(project ""
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 355.6 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77c5f349-bd3c-4886-972d-b2e299220c16")
+		(property "Reference" "R12"
+			(at 357.886 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 353.06 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 353.822 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR01MZPJ103 "
+			(at 355.6 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/ROHM-Semiconductor/ESR01MZPJ103?qs=sGAEpiMZZMtlubZbdhIBICz%2FtfrlArmdFcNzDZxAQcM%3D"
+			(at 355.6 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14e1969f-96fe-4b49-84dd-fca7802248cb")
+		)
+		(pin "2"
+			(uuid "2fe31e37-8933-403c-8b32-91604d5e965a")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12448,73 +14332,6 @@
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 247.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a05add3-5166-477e-8166-caf016178493")
-		(property "Reference" "R16"
-			(at 75.946 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5k1"
-			(at 71.12 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.882 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6dac32c-0d27-4558-8365-9fa40dda250c")
-		)
-		(pin "2"
-			(uuid "8160b58c-ac63-4d0f-afb9-89eab5e11c2a")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -12609,85 +14426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 204.47 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d158657-2a40-402b-999a-84123510bd6e")
-		(property "Reference" "D11"
-			(at 208.28 71.4374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 208.28 73.9774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe9e668f-f6cc-45fd-a2aa-2f891465c1ab")
-		)
-		(pin "2"
-			(uuid "b16c0f7d-5ce0-4ddc-92fe-513b1e226995")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 360.68 110.49 270)
 		(unit 1)
@@ -12757,6 +14495,191 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 227.33 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df6d420-5316-41a3-9dcd-12b91c3a4269")
+		(property "Reference" "D14"
+			(at 231.14 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 231.14 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 227.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 227.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HLMP-Y301-F0000 "
+			(at 227.33 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Broadcom-Avago/HLMP-Y301-F0000?qs=sGAEpiMZZMvVL5Kk7ZYykbom%2FANWpogx2mp9amzFFB8%3D"
+			(at 227.33 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0a6fef-00c6-483a-9f81-32a839df6afb")
+		)
+		(pin "2"
+			(uuid "d6eb8dd0-9a8e-4a68-972f-0d94d50b5d5e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "806ef811-9c3a-4319-b803-1dd5470011d9")
+		(property "Reference" "C7"
+			(at 106.68 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 106.68 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 103.8352 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM022C81A104ME5L "
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RC0402JR-7D330RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDuRhOe%2FHoRr4%3D"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "316d44ea-b24d-4351-bfb9-3fc14db8ae28")
+		)
+		(pin "2"
+			(uuid "2dfcdf74-bb33-45d9-b30c-9350cc4a1f58")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 87.63 208.28 0)
 		(unit 1)
@@ -12817,6 +14740,103 @@
 			(project ""
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 238.76 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "846cd166-fea0-4503-97f1-13b9513efd69")
+		(property "Reference" "D15"
+			(at 242.57 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 242.57 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 238.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 238.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 238.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HLMP-Y301-F0000 "
+			(at 238.76 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Broadcom-Avago/HLMP-Y301-F0000?qs=sGAEpiMZZMvVL5Kk7ZYykbom%2FANWpogx2mp9amzFFB8%3D"
+			(at 238.76 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5feddde8-6ab2-4372-b3b3-6fb33d87ff58")
+		)
+		(pin "2"
+			(uuid "29b80a6a-8199-42ec-8fe1-b258989f476d")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -12911,35 +14931,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 261.62 71.12 90)
+		(lib_id "Device:R")
+		(at 261.62 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "861951b0-ae3d-4101-9f33-ff8452033891")
-		(property "Reference" "D16"
-			(at 265.43 71.4374 90)
+		(uuid "85eb9d57-6e6b-43cc-8439-b34ec9857d37")
+		(property "Reference" "R9"
+			(at 259.334 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 265.43 73.9774 90)
+		(property "Value" "330R"
+			(at 264.16 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 261.62 71.12 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 263.398 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +14965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 71.12 0)
+			(at 261.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,8 +14973,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 261.62 71.12 0)
+		(property "Description" "Resistor"
+			(at 261.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12965,8 +14982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 261.62 71.12 0)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 261.62 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12975,15 +14992,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f0c8bd7-034a-4147-82e5-6c432bb2f9c5")
+			(uuid "2d94afe9-fdde-4663-a26f-b082fd7871c0")
 		)
 		(pin "2"
-			(uuid "ff50e21a-ec57-464d-a41f-7f17c50a6329")
+			(uuid "525ee5ba-a288-4774-82fb-7ae38946f078")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "D16")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 306.07 209.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86b8d9ef-0318-478f-8142-cadcca3ee7b7")
+		(property "Reference" "#PWR036"
+			(at 306.07 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 306.07 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 306.07 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e4d7e00-0285-48b9-aaaa-fc9ba926085e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13059,73 +15142,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bae05d9-1879-4f7b-aa01-9bbbc70de5a9")
-		(property "Reference" "R25"
-			(at 226.314 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 231.14 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 230.378 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 228.6 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d711d2a-0ba0-44f4-a0fb-bcf9e44fd186")
-		)
-		(pin "2"
-			(uuid "778544d6-7bd7-4bcd-9478-9115043b0f80")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 237.49 0)
 		(unit 1)
@@ -13185,6 +15201,103 @@
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 204.47 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f0fcabb-14cc-4ed5-8f05-d996adae317a")
+		(property "Reference" "D12"
+			(at 208.28 71.4374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 208.28 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 204.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HLMP-Y301-F0000 "
+			(at 204.47 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Broadcom-Avago/HLMP-Y301-F0000?qs=sGAEpiMZZMvVL5Kk7ZYykbom%2FANWpogx2mp9amzFFB8%3D"
+			(at 204.47 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70f79f5e-006b-4dbd-b486-23de2c8d59be")
+		)
+		(pin "2"
+			(uuid "5bad0f18-3ff3-41c7-bc86-a1adad6a8db3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -13258,14 +15371,90 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 227.33 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92967bf2-0fb7-46fd-9eb3-5277c028a0f4")
+		(property "Reference" "R6"
+			(at 225.044 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 229.87 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 229.108 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 227.33 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f96307db-2247-481e-9528-424a24fbe5d2")
+		)
+		(pin "2"
+			(uuid "350b6db4-a978-4a37-8b62-c4708683c9fd")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 181.61 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "90e9c3c2-ef98-41c5-8716-167f34d88895")
-		(property "Reference" "R9"
+		(uuid "96c77d03-c154-4b52-9cc1-d2f07bc9f7e0")
+		(property "Reference" "R2"
 			(at 179.324 62.23 90)
 			(effects
 				(font
@@ -13281,7 +15470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 183.388 62.23 90)
 			(effects
 				(font
@@ -13308,66 +15497,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "dacd2d80-ef5a-484c-aa08-efe1516e845b")
-		)
-		(pin "2"
-			(uuid "04127b40-414f-4b6f-9ae1-80c4e103766f")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 349.25 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91d614d4-f371-481d-bceb-2b1bf8356c87")
-		(property "Reference" "R12"
-			(at 351.536 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 346.71 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.472 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 349.25 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 349.25 229.87 0)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 181.61 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13376,117 +15507,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d900061-12e5-4931-89d9-c5b25ff14812")
+			(uuid "c9f35933-4554-447e-a86b-49f99c6423b2")
 		)
 		(pin "2"
-			(uuid "4ea9446e-fc8f-48d4-ae43-e085c4fdb8d3")
+			(uuid "8f41abd4-23b2-4eb0-a591-e3ce3acfc5d6")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R12")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 172.72 238.76 0)
+		(lib_id "Connector:Conn_01x10_Pin")
+		(at 33.02 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97645bfe-8c2c-4916-968d-9a3905cd390e")
-		(property "Reference" "C15"
-			(at 176.53 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 176.53 240.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.6852 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 172.72 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d7fa8f0-c471-480b-b32f-411befd64080")
-		)
-		(pin "2"
-			(uuid "0747d985-fe85-4e7c-a515-870c655d3b46")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 251.46 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99b40331-a320-4e64-b3dc-420b36f018f8")
-		(property "Reference" "R22"
-			(at 249.174 171.45 90)
+		(uuid "99ce764d-ac4e-4f44-bbad-d86f572c18bd")
+		(property "Reference" "J3"
+			(at 33.655 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 254 171.45 90)
+		(property "Value" "Conn_01x10_Pin"
+			(at 33.655 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 253.238 171.45 90)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical"
+			(at 33.02 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13495,7 +15557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 171.45 0)
+			(at 33.02 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13503,8 +15565,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 251.46 171.45 0)
+		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 33.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-17946160 "
+			(at 33.02 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13513,285 +15584,314 @@
 			)
 		)
 		(pin "1"
-			(uuid "602fa33e-ac0e-40ad-8eef-f920e1d22c7f")
+			(uuid "a46898c2-714d-4662-8fbc-bf9c0e7856b2")
+		)
+		(pin "3"
+			(uuid "bcb7b350-def8-4479-82df-177f6f7f730f")
+		)
+		(pin "4"
+			(uuid "e8a73aad-79c8-4870-b7af-dde567abeb4b")
 		)
 		(pin "2"
-			(uuid "b8f330d3-5590-4d91-bb57-74acf2f98247")
+			(uuid "f097f454-b454-4281-bb91-0bb49e4a1a85")
 		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R22")
-					(unit 1)
-				)
-			)
+		(pin "10"
+			(uuid "1efefd97-2288-420d-a21b-4bafc44485e4")
 		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 266.7 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9afd8374-d863-407a-a6e7-1a09e87bce47")
-		(property "Reference" "R20"
-			(at 264.414 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "8"
+			(uuid "372fa71c-7c5c-498d-a1f2-bd106b952fbe")
 		)
-		(property "Value" "330R"
-			(at 269.24 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "6"
+			(uuid "44af259f-bc2f-40a2-8682-7910510993c8")
 		)
-		(property "Footprint" ""
-			(at 268.478 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "43513926-d095-4701-9ea0-bda4f2ac31ca")
 		)
-		(property "Datasheet" "~"
-			(at 266.7 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "9"
+			(uuid "6893ef5e-4d6b-4add-88a4-d7e5ce78b9fc")
 		)
-		(property "Description" "Resistor"
-			(at 266.7 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "337b17e3-6bb2-407a-9d38-a3090180bac5")
-		)
-		(pin "2"
-			(uuid "4f8a8cf2-497f-4bb0-953f-dd8fb3fd4654")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 261.62 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c1bfa5f-db08-48ab-b674-bbaf25518557")
-		(property "Reference" "R8"
-			(at 259.334 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 264.16 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 263.398 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 261.62 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "841ceef8-a02a-461e-9a1d-285069ee9b99")
-		)
-		(pin "2"
-			(uuid "c415ebeb-9445-4d89-b6e1-720492e4ca1f")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 133.35 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a17dcc75-fcd5-4d52-95e5-401efd919ad6")
-		(property "Reference" "#PWR08"
-			(at 133.35 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "564805c6-7188-4b06-8731-cf31cda8d9f7")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 85.09 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1ef4b2c-4212-41d4-adc4-bee1dc162999")
-		(property "Reference" "C1"
-			(at 88.9 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 88.9 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.0552 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d3efd66-40a8-4817-83ce-ec6149ba63d3")
-		)
-		(pin "2"
-			(uuid "191eca4c-142c-4fb2-ab79-b9e498bce872")
+		(pin "7"
+			(uuid "90dd1c7d-8c7d-42eb-8620-b2f8cf6c8e4e")
 		)
 		(instances
 			(project ""
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C1")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 54.61 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bb7ce96-21fc-40d6-9ee6-8d231ccb7a4b")
+		(property "Reference" "J1"
+			(at 54.61 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 54.61 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_footprints:UJ20CHGMSMT4BP16TR"
+			(at 58.42 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 58.42 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 54.61 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "179-CHGMSMT4BP16TR "
+			(at 54.61 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A6"
+			(uuid "85d722ff-91bc-49a0-8359-6582e8141b63")
+		)
+		(pin "B7"
+			(uuid "ebfdc339-c452-4dba-a668-1e08c8eca62d")
+		)
+		(pin "A1"
+			(uuid "bb933de4-6755-4d60-b8d0-44b069e52f4f")
+		)
+		(pin "B6"
+			(uuid "2df0217f-d959-4edf-99c7-73667204c37f")
+		)
+		(pin "A5"
+			(uuid "2b0f3b1f-940a-4a7b-91b7-e93f9ee838d0")
+		)
+		(pin "A8"
+			(uuid "6ea5e551-cc82-4ef2-9123-2b2a5c14a704")
+		)
+		(pin "B9"
+			(uuid "d2c2eaf9-43fa-46ed-8bee-b873d56466ce")
+		)
+		(pin "B4"
+			(uuid "680d662f-c9a6-4814-9173-d1e53dbedad3")
+		)
+		(pin "A7"
+			(uuid "be990905-b53b-47ac-8ab4-64f4f450d77c")
+		)
+		(pin "B5"
+			(uuid "6733fade-b40d-4c8f-9cca-bd3474e6e066")
+		)
+		(pin "B8"
+			(uuid "a04132c1-9955-4591-a236-fb8c0da985da")
+		)
+		(pin "S1"
+			(uuid "5f11f3ca-95ad-4e21-b575-cf64b697fe47")
+		)
+		(pin "B12"
+			(uuid "f6b8f82f-d215-429d-9b39-ac8af86cc657")
+		)
+		(pin "A4"
+			(uuid "0548690b-cb92-4bf2-ae1a-64e186607933")
+		)
+		(pin "A9"
+			(uuid "2fe64e47-7d3f-4720-a55e-420c3c853eff")
+		)
+		(pin "A12"
+			(uuid "449bafa7-d770-4667-9263-06a627ee4422")
+		)
+		(pin "B1"
+			(uuid "b712a5e9-b3e8-4081-b63e-a6fb83934a4c")
+		)
+		(instances
+			(project ""
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 228.6 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c6e9817-d517-4dd0-89eb-6645b2dab05d")
+		(property "Reference" "R15"
+			(at 226.314 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 231.14 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 230.378 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 228.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 228.6 171.45 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be5e45c9-14aa-45e5-a6a3-18e7a4ce2831")
+		)
+		(pin "2"
+			(uuid "2ac70f56-43cd-4d4d-a74f-7b55327096ae")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e0ec0bf-25ef-4739-9ed6-78eb10052bfd")
+		(property "Reference" "R16"
+			(at 75.946 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 71.12 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.882 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number " "71-RCC04025K10FKED"
+			(at 73.66 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c556b7b-097b-489a-bc7e-5182770d9d62")
+		)
+		(pin "2"
+			(uuid "f58a2586-dceb-4d2a-a38c-cb09a3f56850")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13886,76 +15986,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 73.66 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4e105fe-7955-43a9-ba19-14c7b8fef6e9")
-		(property "Reference" "C2"
-			(at 77.47 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 77.47 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.6252 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae3bfe50-73dc-4570-9249-b1beaabaf949")
-		)
-		(pin "2"
-			(uuid "5a50d480-d58c-42bf-a60a-4150bda1781b")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 55.88 127 0)
 		(unit 1)
@@ -14022,41 +16052,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 227.33 62.23 180)
+		(lib_id "Logic_LevelTranslator:SN74LV1T34DBV")
+		(at 306.07 236.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a70ba948-6359-44ce-b98e-d1599b78cd70")
-		(property "Reference" "R5"
-			(at 225.044 62.23 90)
+		(uuid "a670c9cd-4bdd-454a-a138-3e4c675ce9e5")
+		(property "Reference" "U3"
+			(at 316.992 242.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 229.87 62.23 90)
+		(property "Value" "SN74LV1T34DBV"
+			(at 316.992 244.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 229.108 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 62.23 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 289.56 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14064,8 +16085,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 227.33 62.23 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
+			(at 316.23 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14073,16 +16094,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "23dc67dd-749d-4b64-abde-0dfdba6937f8")
+		(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5"
+			(at 306.07 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "e449c4b6-88e1-4c59-82be-d45749688c9c")
+			(uuid "2c8490f0-72a1-44fe-985d-10bcc1268d0a")
+		)
+		(pin "4"
+			(uuid "5e6d6c2d-acfd-42df-9d57-10c7cabe2b73")
+		)
+		(pin "3"
+			(uuid "5f84a914-7d27-4165-9a76-44c01a9a710d")
+		)
+		(pin "1"
+			(uuid "9c88e7ca-09a1-4d83-8099-1f61ebb954a4")
+		)
+		(pin "5"
+			(uuid "718a755f-9cd7-47b9-a8d5-72664726e5ca")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -14155,8 +16194,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 204.47 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af2e9d14-33a1-4e16-abb3-9cf67a041851")
+		(property "Reference" "R4"
+			(at 202.184 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 207.01 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 206.248 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 204.47 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "432b2f1d-950a-4cff-86d0-f774fdeb7881")
+		)
+		(pin "2"
+			(uuid "540d1c85-7516-4a2e-8b13-17c867fb7b41")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 316.23 237.49 0)
+		(at 322.58 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14165,7 +16280,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2a6309b-31dc-4a50-9b94-c5377047afd4")
 		(property "Reference" "#PWR016"
-			(at 316.23 243.84 0)
+			(at 322.58 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14174,7 +16289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 242.57 0)
+			(at 322.58 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,7 +16297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 237.49 0)
+			(at 322.58 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14191,7 +16306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 237.49 0)
+			(at 322.58 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14200,7 +16315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 316.23 237.49 0)
+			(at 322.58 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14548,35 +16663,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 43.18 96.52 0)
+		(lib_id "Device:R")
+		(at 55.88 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdcdee09-50f5-451c-bf9a-2a158ff49c2a")
-		(property "Reference" "C10"
-			(at 46.99 95.2499 0)
+		(uuid "be56e2ee-ee3a-4049-9ac1-66c6f44cf8f0")
+		(property "Reference" "R1"
+			(at 58.166 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 46.99 97.7899 0)
+		(property "Value" "10k"
+			(at 53.34 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 44.1452 100.33 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.102 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14585,7 +16697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 96.52 0)
+			(at 55.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14593,8 +16705,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 43.18 96.52 0)
+		(property "Description" "Resistor"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR01MZPJ103 "
+			(at 55.88 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/ROHM-Semiconductor/ESR01MZPJ103?qs=sGAEpiMZZMtlubZbdhIBICz%2FtfrlArmdFcNzDZxAQcM%3D"
+			(at 55.88 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14603,15 +16733,169 @@
 			)
 		)
 		(pin "1"
-			(uuid "742c2674-3c43-4458-8278-62c9b09a6e50")
+			(uuid "e0bfd203-fdf0-4dee-9f26-14a16684dae4")
 		)
 		(pin "2"
-			(uuid "20c91f8c-c47e-47c2-a67d-516caac9e61c")
+			(uuid "c1047622-fb74-4004-a0af-9827b2ea85b2")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C10")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beacf460-e911-4d72-8331-206ddc768843")
+		(property "Reference" "C6"
+			(at 119.38 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 119.38 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 116.5352 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM21R61A475KE34D "
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM219R61A475KE34D?qs=sGAEpiMZZMsh%252B1woXyUXjxMP0kM0JlaOxtwLnxkjVn4%3D"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d89495bd-10bd-4e5f-bbed-71bcf1755487")
+		)
+		(pin "2"
+			(uuid "840536c4-1832-4eda-849f-0c8358adfa76")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 306.07 243.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf30d6b3-e198-43c5-85dc-f819712047a5")
+		(property "Reference" "#PWR035"
+			(at 306.07 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 306.07 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 306.07 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9dafa59-3e81-4d1f-b214-1311679eb498")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -14753,142 +17037,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 54.61 226.06 0)
+		(lib_id "Device:R")
+		(at 250.19 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7bf87ee-c86c-450d-bf53-4c92b79a2c60")
-		(property "Reference" "J1"
-			(at 54.61 203.2 0)
+		(uuid "c7e0346a-124f-4998-8dab-4b4c7313c2ac")
+		(property "Reference" "R8"
+			(at 247.904 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 54.61 205.74 0)
+		(property "Value" "330R"
+			(at 252.73 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 58.42 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 54.61 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B4"
-			(uuid "1eea4ed8-d22d-4d92-b1ca-d666dbcb45c0")
-		)
-		(pin "B5"
-			(uuid "241de196-6014-488f-8e73-c3d0b25c49c8")
-		)
-		(pin "S1"
-			(uuid "0275adc3-4319-4285-ab03-555852d3cf1c")
-		)
-		(pin "A5"
-			(uuid "0c059eec-40d0-4c71-9be5-c1143995af12")
-		)
-		(pin "A7"
-			(uuid "d45158b6-7a19-4a07-998e-f68527d45662")
-		)
-		(pin "B7"
-			(uuid "580465fa-603c-405c-992d-77837e77058d")
-		)
-		(pin "A6"
-			(uuid "257dc3e5-a2b5-466c-80dc-604cb381df44")
-		)
-		(pin "A4"
-			(uuid "18292555-14b7-42bb-bc28-fab8ab753748")
-		)
-		(pin "B12"
-			(uuid "8ff2772f-10db-4cc3-8199-b3d36193ecc4")
-		)
-		(pin "A9"
-			(uuid "ae1bdee3-4d1b-45f7-8ef3-296edb5312b9")
-		)
-		(pin "A12"
-			(uuid "7438a503-cd77-4859-b40a-a162ebfb58d5")
-		)
-		(pin "B1"
-			(uuid "a9e0995d-354e-4af4-9803-ff94890bab47")
-		)
-		(pin "B9"
-			(uuid "b3c4bb85-3907-46e0-88a5-351a79dbb4f2")
-		)
-		(pin "A1"
-			(uuid "51943c3b-26b8-4026-9645-7a3df1c234b2")
-		)
-		(pin "B6"
-			(uuid "12cecaf4-28d9-442d-901c-e0f0bf23ae06")
-		)
-		(instances
-			(project ""
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 215.9 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c902eea1-1fa9-4465-883f-758b7cbc47d9")
-		(property "Reference" "D12"
-			(at 219.71 71.4374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 219.71 73.9774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 71.12 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 251.968 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14897,7 +17071,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 71.12 0)
+			(at 250.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14905,8 +17079,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 215.9 71.12 0)
+		(property "Description" "Resistor"
+			(at 250.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14914,8 +17088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 71.12 0)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 250.19 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14924,15 +17098,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "46a6455f-5766-4d09-b156-a9bcdc9bc758")
+			(uuid "b4c8f8b1-6564-46fd-9edc-38a489498595")
 		)
 		(pin "2"
-			(uuid "5f6538d4-2a14-4cbc-8967-70aba80e4507")
+			(uuid "d2269218-64b4-4327-abf5-8d1d5bd14447")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "D12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -15005,73 +17179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 55.88 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c991251a-3e67-4433-9d74-8e8643cc316e")
-		(property "Reference" "R1"
-			(at 53.594 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 58.42 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.658 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34edba96-50b3-4d83-8b81-fd16f9f797c8")
-		)
-		(pin "2"
-			(uuid "a2ea57ee-ed58-4911-b3cd-6fa97d7e6b25")
-		)
-		(instances
-			(project ""
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 228.6 146.05 0)
 		(unit 1)
@@ -15137,41 +17244,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 238.76 62.23 180)
+		(lib_id "Logic_LevelTranslator:SN74LV1T34DBV")
+		(at 306.07 201.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cedbd647-3a19-4796-9c9a-c05fe916613c")
-		(property "Reference" "R6"
-			(at 236.474 62.23 90)
+		(uuid "d33d9bc2-04b9-4838-aa91-e870fe0d1158")
+		(property "Reference" "U5"
+			(at 316.484 191.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330R"
-			(at 241.3 62.23 90)
+		(property "Value" "SN74LV1T34DBV"
+			(at 316.484 193.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 240.538 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 62.23 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 289.56 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15179,8 +17277,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 238.76 62.23 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
+			(at 316.23 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15188,228 +17286,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "26cd3099-7481-41b2-90d3-4fb1125408ef")
+		(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5"
+			(at 306.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "55e8f4b1-0252-44db-80f6-a78bc54ff8fd")
+			(uuid "1e79f256-0190-4d66-83eb-eeddf8a234dc")
 		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R6")
-					(unit 1)
-				)
-			)
+		(pin "4"
+			(uuid "60ed3fbb-1133-4ac5-9c30-3f3742b186ba")
 		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 349.25 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0b5ef78-5328-442b-9642-5a337b3cf4f6")
-		(property "Reference" "#PWR013"
-			(at 349.25 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 349.25 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 349.25 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "c93d935d-c911-4042-a1c3-389e2e4db715")
 		)
 		(pin "1"
-			(uuid "6bf1e66d-32f9-4607-ae03-b125dc7054ad")
+			(uuid "bfe947cc-1133-4dd7-9a64-4add283fa793")
+		)
+		(pin "5"
+			(uuid "290fbf67-4227-48ec-ac0e-454f8173e9a3")
 		)
 		(instances
 			(project ""
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 193.04 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6b8054c-a382-4768-b8bd-14f447c478bc")
-		(property "Reference" "D10"
-			(at 196.85 71.4374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 196.85 73.9774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c916bdf-86f1-4b57-ac44-c3deaf6d457a")
-		)
-		(pin "2"
-			(uuid "bed6157b-3390-4ada-a840-e3f9a91b8891")
-		)
-		(instances
-			(project ""
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 327.66 227.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6feb9cc-96d4-439f-85c0-066ce131f457")
-		(property "Reference" "R14"
-			(at 327.66 225.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 327.66 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 229.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 327.66 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 327.66 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e835875-c2e2-45fb-a417-084c6317d7df")
-		)
-		(pin "2"
-			(uuid "76548dc5-4b57-46db-aa2d-6df1c84658e9")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R14")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -15625,6 +17529,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 43.18 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da427c52-5a54-40c4-bd01-64ae7972e962")
+		(property "Reference" "C10"
+			(at 46.99 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 46.99 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 44.1452 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM022C81A104ME5L "
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RC0402JR-7D330RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDuRhOe%2FHoRr4%3D"
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c3b0ecd-2e17-4386-a9ea-42d0cea4ac87")
+		)
+		(pin "2"
+			(uuid "45966414-20c7-44af-8898-33b60b7f8d3d")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 360.68 167.64 90)
 		(unit 1)
@@ -15713,82 +17705,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcb4b1eb-49e6-457c-8f1e-6cca397033b3")
-		(property "Reference" "#PWR07"
-			(at 133.35 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69f30939-1c97-4fed-8868-181b8f36a7ec")
-		)
-		(instances
-			(project ""
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 215.9 62.23 180)
+		(at 236.22 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1b82720-0bde-4f9b-a710-a4f6cc0ac57e")
-		(property "Reference" "R4"
-			(at 213.614 62.23 90)
+		(uuid "e2d77b8a-e08d-453e-99b8-fc88986e6c2a")
+		(property "Reference" "R18"
+			(at 233.934 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15796,15 +17722,15 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 218.44 62.23 90)
+			(at 238.76 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 217.678 62.23 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 237.998 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15813,7 +17739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 62.23 0)
+			(at 236.22 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15822,7 +17748,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 62.23 0)
+			(at 236.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 236.22 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15831,15 +17766,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4c2f31e-0385-4bf2-be86-5066bc4b3658")
+			(uuid "b50c28b0-411c-4fc0-95e0-19860ba7e31b")
 		)
 		(pin "2"
-			(uuid "063bbe8f-fadc-44a1-8a58-68538a15b597")
+			(uuid "b8b44710-89b7-41d0-a0b7-aa7645daa6d9")
 		)
 		(instances
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "R4")
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 266.7 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5851a90-594a-453b-a961-d71ddb9de37e")
+		(property "Reference" "R22"
+			(at 264.414 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 269.24 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 268.478 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0402JR-7D330RL"
+			(at 266.7 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2daf4fd8-b251-424a-b0c9-dcf9a5e37f76")
+		)
+		(pin "2"
+			(uuid "4e86f714-3c46-444f-b201-8f42e9108dda")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -15915,144 +17926,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 124.46 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb723067-c2e1-47fb-b9ef-ed6151da3f0a")
-		(property "Reference" "FB1"
-			(at 124.4092 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 124.4092 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 124.46 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6091953-90e1-43cc-8467-305ae2287e48")
-		)
-		(pin "1"
-			(uuid "9f3d3c3c-d0a3-41bc-8e78-b5d3c1f1307d")
-		)
-		(instances
-			(project ""
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 104.14 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb854de5-b9be-4021-b9c2-8f2e3abf69c3")
-		(property "Reference" "C5"
-			(at 107.95 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 107.95 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.1052 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 104.14 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3a6ba56-3cc0-4258-9b63-acf9f7c2f4d9")
-		)
-		(pin "2"
-			(uuid "56a3ca84-f1f7-486e-ba36-c1d2c4671f1a")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 205.74 154.94 0)
 		(unit 1)
@@ -16118,87 +17991,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 250.19 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed6dd012-264f-4524-aa2d-d111cfeeb58e")
-		(property "Reference" "D15"
-			(at 254 71.4374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 254 73.9774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 250.19 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 250.19 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ebe0191-61db-49e5-9884-5b4d56d56bed")
-		)
-		(pin "2"
-			(uuid "79e06d02-83df-4fa0-b63e-e160d2f3fca8")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 349.25 204.47 0)
+		(at 355.6 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16206,7 +18000,7 @@
 		(dnp no)
 		(uuid "f4e4ba7b-4854-4fe8-a741-3aa31d51fcdd")
 		(property "Reference" "R11"
-			(at 351.536 204.47 90)
+			(at 357.886 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16214,15 +18008,15 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 346.71 204.47 90)
+			(at 353.06 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 347.472 204.47 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 353.822 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16231,7 +18025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 204.47 0)
+			(at 355.6 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16240,7 +18034,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 349.25 204.47 0)
+			(at 355.6 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR01MZPJ103 "
+			(at 355.6 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/ROHM-Semiconductor/ESR01MZPJ103?qs=sGAEpiMZZMtlubZbdhIBICz%2FtfrlArmdFcNzDZxAQcM%3D"
+			(at 355.6 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16264,8 +18076,181 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 73.66 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb4124c5-3ec2-4ac4-92c6-17df8f28c46f")
+		(property "Reference" "C1"
+			(at 77.47 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 77.47 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 74.6252 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM022C81A104ME5L "
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/YAGEO/RC0402JR-7D330RL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHDuRhOe%2FHoRr4%3D"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac1c2d93-ba89-4414-ae57-766e4b0021f2")
+		)
+		(pin "2"
+			(uuid "b306732b-a4d3-4b9b-be21-09164afbfc4c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 334.01 224.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcc4fde8-4315-4b9e-97a9-9ead8d40608d")
+		(property "Reference" "R13"
+			(at 334.01 222.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 334.01 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 334.01 226.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 334.01 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-ESR01MZPJ103 "
+			(at 334.01 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/ROHM-Semiconductor/ESR01MZPJ103?qs=sGAEpiMZZMtlubZbdhIBICz%2FtfrlArmdFcNzDZxAQcM%3D"
+			(at 334.01 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1df4a9a6-9547-434b-846c-b21e92380024")
+		)
+		(pin "2"
+			(uuid "ca4feef7-87b8-4b78-8f16-fa278212f0a8")
+		)
+		(instances
+			(project "keyboard"
+				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 372.11 222.25 0)
+		(at 378.46 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16274,7 +18259,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe714d49-e365-4546-bac5-629fae4503e4")
 		(property "Reference" "#PWR018"
-			(at 372.11 228.6 0)
+			(at 378.46 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16283,7 +18268,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 372.11 227.33 0)
+			(at 378.46 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16291,7 +18276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 222.25 0)
+			(at 378.46 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16300,7 +18285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 222.25 0)
+			(at 378.46 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16309,7 +18294,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 372.11 222.25 0)
+			(at 378.46 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16324,146 +18309,6 @@
 			(project "keyboard"
 				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 115.57 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff9ac98a-725e-476d-8169-662b29d41648")
-		(property "Reference" "C6"
-			(at 119.38 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 119.38 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.5352 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 115.57 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "797f5473-904c-456c-8577-373ad05f3db1")
-		)
-		(pin "2"
-			(uuid "59bf580d-9fe9-4168-9989-cd34e50d0053")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 102.87 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffafc5f9-c3e0-4ab4-90d7-b6ff396ee0c6")
-		(property "Reference" "C7"
-			(at 106.68 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 106.68 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 103.8352 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 102.87 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41659e3f-f2a4-41c7-a987-cbbbbbf651df")
-		)
-		(pin "2"
-			(uuid "b544ac06-6dbd-4ff4-8b3d-bbddc0b0570d")
-		)
-		(instances
-			(project "keyboard"
-				(path "/1a453b8b-4281-4796-ae76-093611472c5c"
-					(reference "C7")
 					(unit 1)
 				)
 			)

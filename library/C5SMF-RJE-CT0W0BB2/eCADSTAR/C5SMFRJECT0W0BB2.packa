@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C5SMF-RJE-CT0W0BB2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-03-22-21:25:51)
+    (mountForm default
+        (footprintRef "C5SMFRJECT0W0BB2")
+        (spec "System")
+    )
+)

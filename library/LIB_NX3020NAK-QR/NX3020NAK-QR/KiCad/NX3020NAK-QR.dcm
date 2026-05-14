@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NX3020NAK-QR
+D 30 V, N-channel Trench MOSFET
+K
+F https://assets.nexperia.com/documents/data-sheet/NX3020NAK.pdf
+$ENDCMP
+#
+#End Doc Library

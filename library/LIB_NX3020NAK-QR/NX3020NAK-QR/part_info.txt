@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=NX3020NAK-QR
+PartCategory=MOSFET (N-Channel)
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2025-05-15 02:57:55
+Downloaded=2026-05-13 20:27:47
+3D=Y

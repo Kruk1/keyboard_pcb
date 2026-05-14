@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=TS02-66-55-BK-260-LCR-D
+PartCategory=Switch (4-Pin Push)
+PackageCategory=Other
+PinCount=4
+Version=2.1
+Released=2026-04-20 09:36:13
+Downloaded=2026-05-13 20:36:07
+3D=Y

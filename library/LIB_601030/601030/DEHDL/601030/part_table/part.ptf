@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '601030'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kyocera AVX", "601030" (!) = "", "601030", "Other", "581-601030", "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/601030?qs=B6kkDfuK7%2FDwxok08zuurA%3D%3D", "Potentiometers Carbon Comp Flm Potentiometer", "https://www.abelektronik.de/fileadmin/images/Produkte_und_Datenblaetter/Datenblaetter/Bauelemente/E_HA06.pdf", "7.8 mm"
+END_PART
+
+END.

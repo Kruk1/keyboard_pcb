@@ -1,0 +1,9 @@
+Manufacturer=Kyocera AVX
+PartNumber=601030
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2021-03-19 11:03:55
+Downloaded=2026-05-13 19:28:28
+3D=Y

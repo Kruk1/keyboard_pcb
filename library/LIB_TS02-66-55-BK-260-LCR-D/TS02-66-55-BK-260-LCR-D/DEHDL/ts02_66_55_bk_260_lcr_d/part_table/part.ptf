@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TS02_66_55_BK_260_LCR_D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "TS02-66-55-BK-260-LCR-D" (!) = "", "TS0266100BK100LCRD", "Other", "179-TS026655BK260LCR", "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-55-BK-260-LCR-D?qs=A6eO%252BMLsxmT6x4NEvNu8bQ%3D%3D", "TS02-66-55-BK-260-LCR-D - 6 x 6 mm, 5.5 mm Actuator Height Off PCB, 260 gf, Black, Long Crimped, Through Hole, SPST, Tactile Switch", "https://www.sameskydevices.com/product/resource/TS02-66-55-BK-260-LCR-D.pdf", "10.2 mm"
+END_PART
+
+END.

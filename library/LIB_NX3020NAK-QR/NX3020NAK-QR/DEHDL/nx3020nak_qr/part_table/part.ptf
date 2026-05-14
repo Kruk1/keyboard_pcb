@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NX3020NAK_QR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "NX3020NAK-QR" (!) = "", "SOT95P230X110-3N", "SOT23 (3-Pin)", "", "", "30 V, N-channel Trench MOSFET", "https://assets.nexperia.com/documents/data-sheet/NX3020NAK.pdf", "1.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,16 @@
+.601030 :1 ;Potentiometers Carbon Comp Flm Potentiometer
+"601030"
+*STM VR
+*NGS
+*PLB 1="CCW" 2="WIPER" 3="CW"
+*MXP 4
+*DFN 601030
+~!Mouser Part Number (581-601030)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/601030?qs=B6kkDfuK7%2FDwxok08zuurA%3D%3D)
+~!Manufacturer_Name (Kyocera AVX)
+~!Manufacturer_Part_Number (601030)
+~!Link Datasheet (https://www.abelektronik.de/fileadmin/images/Produkte_und_Datenblaetter/Datenblaetter/Bauelemente/E_HA06.pdf)
+~!Height (7.8mm)
+~!3D_Model (601030)
+"601030"
+1.1!U 2.1!U 3.1!U 
